@@ -1,0 +1,60 @@
+{
+	"movtoFixado": [
+		{
+			"dtMovto": "2022-06-30T00:00:00.000-03:00",
+			"cdPrdAgric": 1,
+			"dsProduto": "SOJA",
+			"qtFixado": 7599018.58,
+			"vlFixado": 22484508.01,
+			"qtCtrFixado": 0.0,
+			"vlCtrFixado": 0,
+			"qtCtrVaTerra": 0,
+			"vlCtrVaTerra": 0,
+			"qtTonelada": 7599.3,
+			"vlPrecoMedio": 118.35,
+			"vlTonelada": 22485
+		},
+		{
+			"dtMovto": "2022-06-13T00:00:00.000-03:00",
+			"cdPrdAgric": 3,
+			"dsProduto": "MILHO",
+			"qtFixado": 3067727,
+			"vlFixado": 4119470.57,
+			"qtCtrFixado": 0,
+			"vlCtrFixado": 0,
+			"qtCtrVaTerra": 0,
+			"vlCtrVaTerra": 0,
+			"qtTonelada": 3068,
+			"vlPrecoMedio": 80.57,
+			"vlTonelada": 4119
+		},
+		{
+			"dtMovto": "2022-06-13T00:00:00.000-03:00",
+			"cdPrdAgric": 17,
+			"dsProduto": "TRIGO",
+			"qtFixado": 141102,
+			"vlFixado": 250335.52,
+			"qtCtrFixado": 0,
+			"vlCtrFixado": 0,
+			"qtCtrVaTerra": 0,
+			"vlCtrVaTerra": 0,
+			"qtTonelada": 141,
+			"vlPrecoMedio": 106.45,
+			"vlTonelada": 250
+		},
+		{
+			"dtMovto": "2022-06-13T00:00:00.000-03:00",
+			"cdPrdAgric": 32,
+			"dsProduto": "CAFE COCO",
+			"qtFixado": 400,
+			"vlFixado": 4652.9,
+			"qtCtrFixado": 0,
+			"vlCtrFixado": 0,
+			"qtCtrVaTerra": 0,
+			"vlCtrVaTerra": 0,
+			"qtTonelada": 0,
+			"vlPrecoMedio": 465.29,
+			"vlTonelada": 5
+		}
+	]
+}
