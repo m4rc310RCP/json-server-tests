@@ -1,66 +1,8 @@
 {
-  "movtoFixado": [
-		{
-			"dtMovto": "2022-06-13T00:00:00.000-03:00",
-			"cdPrdAgric": 1,
-			"dsProduto": "SOJA",
-			"qtFixado": 7599018,
-			"vlFixado": 22484508.76,
-			"qtCtrFixado": 0,
-			"vlCtrFixado": 0,
-			"qtCtrVaTerra": 0,
-			"vlCtrVaTerra": 0,
-			"qtTonelada": 7599,
-			"vlPrecoMedio": 118.35,
-			"vlTonelada": 22485
-		},
-		{
-			"dtMovto": "2022-06-13T00:00:00.000-03:00",
-			"cdPrdAgric": 3,
-			"dsProduto": "MILHO",
-			"qtFixado": 3067727,
-			"vlFixado": 4119470.57,
-			"qtCtrFixado": 0,
-			"vlCtrFixado": 0,
-			"qtCtrVaTerra": 0,
-			"vlCtrVaTerra": 0,
-			"qtTonelada": 3068,
-			"vlPrecoMedio": 80.57,
-			"vlTonelada": 4119
-		},
-		{
-			"dtMovto": "2022-06-13T00:00:00.000-03:00",
-			"cdPrdAgric": 17,
-			"dsProduto": "TRIGO",
-			"qtFixado": 141102,
-			"vlFixado": 250335.52,
-			"qtCtrFixado": 0,
-			"vlCtrFixado": 0,
-			"qtCtrVaTerra": 0,
-			"vlCtrVaTerra": 0,
-			"qtTonelada": 141,
-			"vlPrecoMedio": 106.45,
-			"vlTonelada": 250
-		},
-		{
-			"dtMovto": "2022-06-13T00:00:00.000-03:00",
-			"cdPrdAgric": 32,
-			"dsProduto": "CAFE COCO",
-			"qtFixado": 400,
-			"vlFixado": 4652.9,
-			"qtCtrFixado": 0,
-			"vlCtrFixado": 0,
-			"qtCtrVaTerra": 0,
-			"vlCtrVaTerra": 0,
-			"qtTonelada": 0,
-			"vlPrecoMedio": 465.29,
-			"vlTonelada": 5
-		}
-	],
-  "movtoContrato": {
+  "obtemMovtoContratoPainel": {
     "dadosSintetico": [
       {
-        "dtMovto": "2022-05-10T00:00:00.000-03:00",
+        "dtMovto": "2022-05-10",
         "cdPrdAgric": 1,
         "dsProduto": "SOJA",
         "dsCarteira": "VAPF",
@@ -69,109 +11,350 @@
         "vlProduto": 181100,
         "qtTonelada": 60,
         "vlPrecoMedio": 120.73,
-        "dtAnoVencto": 2022
+        "dtAnoVencto": "2022"
       },
       {
-        "dtMovto": "2022-05-10T00:00:00.000-03:00",
+        "dtMovto": "2022-05-10",
         "cdPrdAgric": 1,
         "dsProduto": "SOJA",
-        "dsCarteira": "VA",
+        "dsCarteira": "VAPF",
         "tpMoeda": 1,
         "qtProduto": 633600,
         "vlProduto": 1808355,
         "qtTonelada": 634,
         "vlPrecoMedio": 114.16,
-        "dtAnoVencto": 2023
+        "dtAnoVencto": "2023"
       },
       {
-        "dtMovto": "2022-05-10T00:00:00.000-03:00",
+        "dtMovto": "2022-05-10",
         "cdPrdAgric": 3,
         "dsProduto": "MILHO",
         "dsCarteira": "VAPF",
-        "tpMoeda": 2,
+        "tpMoeda": 1,
         "qtProduto": 447000,
         "vlProduto": 673500,
         "qtTonelada": 447,
         "vlPrecoMedio": 90.4,
-        "dtAnoVencto": 2023
+        "dtAnoVencto": "2023"
       }
     ],
     "dadosAnalitico": [
       {
-        "dtMovto": "2022-05-10T00:00:00.000-03:00",
+        "dtMovto": "2022-05-10",
         "cdPrdAgric": 1,
         "dsProduto": "SOJA",
         "dsCarteira": "VAPF",
-        "cdModalidade": 2,
-        "dsModalidade": "INTENÇÃO VAPF R$ - ENTREGA FU",
+        "cdModalidade": "2",
+        "dsModalidade": "INTENÇÃO VAPF  R$ - ENTREGA FU",
         "tpMoeda": 1,
         "qtProduto": 60000,
         "vlProduto": 181100,
         "qtTonelada": 60,
         "vlPrecoMedio": 120.73,
-        "dtVencimento": "2022-06-01T00:00:00.000-03:00",
-        "dtAnoVencto": 2022
+        "dtVencimento": "01/06/2022",
+        "dtAnoVencto": "2022"
       },
       {
-        "dtMovto": "2022-05-10T00:00:00.000-03:00",
+        "dtMovto": "2022-05-10",
         "cdPrdAgric": 1,
         "dsProduto": "SOJA",
         "dsCarteira": "VAPF",
-        "cdModalidade": 2,
-        "dsModalidade": "INTENÇÃO VAPF R$ - ENTREGA FU",
+        "cdModalidade": "2",
+        "dsModalidade": "INTENÇÃO VAPF  R$ - ENTREGA FU",
         "tpMoeda": 1,
         "qtProduto": 573600,
         "vlProduto": 1634355,
         "qtTonelada": 574,
         "vlPrecoMedio": 113.97,
-        "dtVencimento": "2023-04-03T00:00:00.000-03:00",
-        "dtAnoVencto": 2023
+        "dtVencimento": "03/04/2023",
+        "dtAnoVencto": "2023"
       },
       {
-        "dtMovto": "2022-05-10T00:00:00.000-03:00",
+        "dtMovto": "2022-05-10",
         "cdPrdAgric": 1,
         "dsProduto": "SOJA",
         "dsCarteira": "VAPF",
-        "cdModalidade": 2,
-        "dsModalidade": "INTENÇÃO VAPF R$ - ENTREGA FU",
+        "cdModalidade": "2",
+        "dsModalidade": "INTENÇÃO VAPF  R$ - ENTREGA FU",
         "tpMoeda": 1,
         "qtProduto": 60000,
         "vlProduto": 174000,
         "qtTonelada": 60,
         "vlPrecoMedio": 116,
-        "dtVencimento": "2023-05-02T00:00:00.000-03:00",
-        "dtAnoVencto": 2023
+        "dtVencimento": "02/05/2023",
+        "dtAnoVencto": "2023"
       },
       {
-        "dtMovto": 20220510,
+        "dtMovto": "2022-05-10",
         "cdPrdAgric": 3,
         "dsProduto": "MILHO",
         "dsCarteira": "VAPF",
-        "cdModalidade": 2,
-        "dsModalidade": "INTENÇÃO VAPF R$ - ENTREGA FU",
+        "cdModalidade": "2",
+        "dsModalidade": "INTENÇÃO VAPF  R$ - ENTREGA FU",
         "tpMoeda": 1,
         "qtProduto": 495000,
         "vlProduto": 745125,
         "qtTonelada": 495,
         "vlPrecoMedio": 90.32,
-        "dtVencimento": "2023-04-03T00:00:00.000-03:00",
-        "dtAnoVencto": 2023
+        "dtVencimento": "03/04/2023",
+        "dtAnoVencto": "2023"
       },
       {
-        "dtMovto": 20220510,
+        "dtMovto": "2022-05-10",
         "cdPrdAgric": 3,
         "dsProduto": "MILHO",
         "dsCarteira": "VAPF",
-        "cdModalidade": 2,
-        "dsModalidade": "INTENÇÃO VAPF R$ - ENTREGA FU",
+        "cdModalidade": "2",
+        "dsModalidade": "INTENÇÃO VAPF  R$ - ENTREGA FU",
         "tpMoeda": 1,
         "qtProduto": -48000,
         "vlProduto": -71625,
         "qtTonelada": -48,
         "vlPrecoMedio": 89.53,
-        "dtVencimento": "2023-05-02T00:00:00.000-03:00",
-        "dtAnoVencto": 2023
+        "dtVencimento": "02/05/2023",
+        "dtAnoVencto": "2023"
+      }
+    ]
+  },
+  "obtemMovtoFixacaoPainel": [
+    {
+      "dtMovto": "2022-06-13T00:00:00.000-03:00",
+      "cdPrdAgric": 1,
+      "dsProduto": "SOJA",
+      "qtFixado": 7599018,
+      "vlFixado": 22484508.76,
+      "qtCtrFixado": 2,
+      "vlCtrFixado": 0,
+      "qtCtrVaTerra": 0,
+      "vlCtrVaTerra": 0,
+      "qtTonelada": 7599.5,
+      "vlPrecoMedio": 118.35,
+      "vlTonelada": 22489
+    },
+    {
+      "dtMovto": "2022-06-13T00:00:00.000-03:00",
+      "cdPrdAgric": 3,
+      "dsProduto": "MILHO",
+      "qtFixado": 3067727,
+      "vlFixado": 4119470.57,
+      "qtCtrFixado": 0,
+      "vlCtrFixado": 0,
+      "qtCtrVaTerra": 0,
+      "vlCtrVaTerra": 0,
+      "qtTonelada": 3068,
+      "vlPrecoMedio": 80.57,
+      "vlTonelada": 4119
+    },
+    {
+      "dtMovto": "2022-06-13T00:00:00.000-03:00",
+      "cdPrdAgric": 17,
+      "dsProduto": "TRIGO",
+      "qtFixado": 141102,
+      "vlFixado": 250335.52,
+      "qtCtrFixado": 0,
+      "vlCtrFixado": 0,
+      "qtCtrVaTerra": 0,
+      "vlCtrVaTerra": 0,
+      "qtTonelada": 141,
+      "vlPrecoMedio": 106.45,
+      "vlTonelada": 250
+    },
+    {
+      "dtMovto": "2022-06-13T00:00:00.000-03:00",
+      "cdPrdAgric": 32,
+      "dsProduto": "CAFE EM COCO",
+      "qtFixado": 400,
+      "vlFixado": 4652.9,
+      "qtCtrFixado": 0,
+      "vlCtrFixado": 0,
+      "qtCtrVaTerra": 0,
+      "vlCtrVaTerra": 0,
+      "qtTonelada": 0.1,
+      "vlPrecoMedio": 465.29,
+      "vlTonelada": 5
+    },
+    {
+      "dtMovto": "2022-06-13T00:00:00.000-03:00",
+      "cdPrdAgric": 32,
+      "dsProduto": "CAFE BENEFICIADO",
+      "qtFixado": 0,
+      "vlFixado": 0,
+      "qtCtrFixado": 0,
+      "vlCtrFixado": 0,
+      "qtCtrVaTerra": 0,
+      "vlCtrVaTerra": 0,
+      "qtTonelada": 0.3,
+      "vlPrecoMedio": 1350,
+      "vlTonelada": 0
+    }
+  ],
+  "obtemCotacaoPainel":{
+    "sessionId": "AAA1233",
+    "cotacao_moeda": {
+      "campos_titulo": [
+        {
+          "nm_moeda": ""
+        },
+        {
+          "vl_ult": "ULT"
+        },
+        {
+          "vl_perc": "%"
+        },
+        {
+          "vl_min": "MÍN"
+        },
+        {
+          "vl_max": "MÁX"
+        }
+      ],
+      "cotacoes": [
+        {
+          "nm_moeda": "Dólar",
+          "vl_ult": 5.366,
+          "vl_perc": -0.16,
+          "vl_min": 5.3446,
+          "vl_max": 5.3867
+        },
+        {
+          "nm_moeda": "Euro",
+          "vl_ult": 1.0789,
+          "vl_perc": -0.96,
+          "vl_min": 1.0668,
+          "vl_max": 1.0686
+        }
+      ]
+    },
+    "cotacao_produto": {
+      "campos_titulo": [
+        {
+          "nm_produto": ""
+        },
+        {
+          "ds_mes": "MÊS"
+        },
+        {
+          "vl_fech": "FECH"
+        },
+        {
+          "vl_ult": "ÚLTIMO"
+        },
+        {
+          "vl_dif": "DIF"
+        },
+        {
+          "vl_perc": "%"
+        }
+      ],
+      "cotacoes": [
+        {
+          "nm_produto": "Soja",
+          "ds_mes": "Jul-4",
+          "vl_fech": 1189.7,
+          "vl_ult": 1188.79,
+          "vl_dif": -0.77,
+          "vl_perc": 0.06
+        },
+        {
+          "nm_produto": "Farelo Soja",
+          "ds_mes": "Jul-4",
+          "vl_fech": 368.2,
+          "vl_ult": 370.5,
+          "vl_dif": 2.1,
+          "vl_perc": 0.57
+        },
+        {
+          "nm_produto": "Óleo",
+          "ds_mes": "Jul-4",
+          "vl_fech": 43.86,
+          "vl_ult": 43.89,
+          "vl_dif": 0.03,
+          "vl_perc": 0.06
+        },
+        {
+          "nm_produto": "Milho",
+          "ds_mes": "Jul-4",
+          "vl_fech": 458.5,
+          "vl_ult": 455.27,
+          "vl_dif": -3.25,
+          "vl_perc": -0.7
+        },
+        {
+          "nm_produto": "Trigo Pão",
+          "ds_mes": "Jul-4",
+          "vl_fech": 636.75,
+          "vl_ult": 633.25,
+          "vl_dif": -3.5,
+          "vl_perc": -0.54
+        },
+        {
+          "nm_produto": "Soja(F)",
+          "ds_mes": "Jul-4",
+          "vl_fech": 226.05,
+          "vl_ult": 224.5,
+          "vl_dif": -1.55,
+          "vl_perc": -0.68
+        },
+        {
+          "nm_produto": "Café",
+          "ds_mes": "Jul-4",
+          "vl_fech": 71.35,
+          "vl_ult": 71.67,
+          "vl_dif": 0.32,
+          "vl_perc": 0.44
+        },
+        {
+          "nm_produto": "Algodão",
+          "ds_mes": "",
+          "vl_fech": 392.73,
+          "vl_ult": 392.73,
+          "vl_dif": 0,
+          "vl_perc": 0
+        },
+        {
+          "nm_produto": "Milho BMF",
+          "ds_mes": "Jul-24",
+          "vl_fech": 58.32,
+          "vl_ult": 57.91,
+          "vl_dif": -0.41,
+          "vl_perc": -0.7
+        },
+        {
+          "nm_produto": "Milho BMF(F)",
+          "ds_mes": "Jul-24",
+          "vl_fech": 58.32,
+          "vl_ult": 57.91,
+          "vl_dif": -0.40,
+          "vl_perc": -0.8
+        },
+        {
+          "nm_produto": "Milho ESAL-Q",
+          "ds_mes": "Jul-24",
+          "vl_fech": 58.32,
+          "vl_ult": 57.93,
+          "vl_dif": -0.44,
+          "vl_perc": -0.7
+        }
+      ]
+    }
+  },
+  "obtemTempoAtualizaPainel":{
+    "tempo_atualizacao": {
+      "qt_tempocontrato": 5,
+      "qt_tempocotacao": 5
+    }
+  },
+  "obtemParametrosExibicaoPainel":{
+    "sessionId":"AAA1233",
+    "parametros": [
+      {
+        "cd_fonte": 200,
+        "cd_simbolo": "DOL COM",
+        "nm_ativo": "DÓLAR",
+        "tp_ativo": 1
       }
     ]
   }
+  
+   
 }

@@ -1,0 +1,80 @@
+{
+  "obtemMovtoContratoPainel": {
+    "dadosSintetico": [],
+    "dadosAnalitico": []
+  },
+  "obtemMovtoFixacaoPainel": [],
+  "obtemCotacaoPainel":{
+    "sessionId": "AAA1233--7766677",
+    "cotacao_moeda": {
+      "campos_titulo": [
+        {
+          "nm_moeda": ""
+        },
+        {
+          "vl_ult": "ULT"
+        },
+        {
+          "vl_perc": "%"
+        },
+        {
+          "vl_min": "MÍN"
+        },
+        {
+          "vl_max": "MÁX"
+        }
+      ],
+      "cotacoes": [
+        {
+          "nm_moeda": "Dólar",
+          "vl_ult": 5.367,
+          "vl_perc": -0.16,
+          "vl_min": 5.3446,
+          "vl_max": 5.386
+        }
+      ]
+    },
+    "cotacao_produto": {
+      "campos_titulo": [
+        {
+          "nm_produto": ""
+        },
+        {
+          "ds_mes": "MÊS"
+        },
+        {
+          "vl_fech": "FECH"
+        },
+        {
+          "vl_ult": "ÚLTIMO"
+        },
+        {
+          "vl_dif": "DIF"
+        },
+        {
+          "vl_perc": "%"
+        }
+      ],
+      "cotacoes": []
+    }
+  },
+  "obtemTempoAtualizaPainel":{
+    "tempo_atualizacao": {
+      "qt_tempocontrato": 5,
+      "qt_tempocotacao": 5
+    }
+  },
+  "obtemParametrosExibicaoPainel":{
+    "sessionId":"AA1122BB33CC",
+    "parametros": [
+      {
+        "cd_fonte": 200,
+        "cd_simbolo": "DOL COM",
+        "nm_ativo": "DÓLAR",
+        "tp_ativo": 1
+      }
+    ]
+  }
+  
+   
+}
