@@ -28,12 +28,12 @@
       {
         "dtMovto": "2022-05-10",
         "cdPrdAgric": 3,
-        "dsProduto": "MILHO",
+        "dsProduto": "MILHO AB",
         "dsCarteira": "VAPF",
         "tpMoeda": 1,
         "qtProduto": 447000,
         "vlProduto": 673500,
-        "qtTonelada": 447,
+        "qtTonelada": 9999999,
         "vlPrecoMedio": 90.4,
         "dtAnoVencto": "2023"
       }
@@ -51,7 +51,7 @@
         "vlProduto": 181100,
         "qtTonelada": 60,
         "vlPrecoMedio": 120.73,
-        "dtVencimento": "01/06/2022",
+        "dtVencimento": "2022-06-01",
         "dtAnoVencto": "2022"
       },
       {
@@ -66,7 +66,7 @@
         "vlProduto": 1634355,
         "qtTonelada": 574,
         "vlPrecoMedio": 113.97,
-        "dtVencimento": "03/04/2023",
+        "dtVencimento": "2023-04-03",
         "dtAnoVencto": "2023"
       },
       {
@@ -81,7 +81,7 @@
         "vlProduto": 174000,
         "qtTonelada": 60,
         "vlPrecoMedio": 116,
-        "dtVencimento": "02/05/2023",
+        "dtVencimento": "2023-05-02",
         "dtAnoVencto": "2023"
       },
       {
@@ -96,22 +96,22 @@
         "vlProduto": 745125,
         "qtTonelada": 495,
         "vlPrecoMedio": 90.32,
-        "dtVencimento": "03/04/2023",
+        "dtVencimento": "2023-04-02",
         "dtAnoVencto": "2023"
       },
       {
         "dtMovto": "2022-05-10",
         "cdPrdAgric": 3,
-        "dsProduto": "MILHO",
+        "dsProduto": "MILHO AB",
         "dsCarteira": "VAPF",
         "cdModalidade": "2",
         "dsModalidade": "INTENÇÃO VAPF  R$ - ENTREGA FU",
         "tpMoeda": 1,
         "qtProduto": -48000,
         "vlProduto": -71625,
-        "qtTonelada": -48,
+        "qtTonelada": 9999999,
         "vlPrecoMedio": 89.53,
-        "dtVencimento": "02/05/2023",
+        "dtVencimento": "2023-11-01",
         "dtAnoVencto": "2023"
       }
     ]
@@ -162,7 +162,7 @@
     {
       "dtMovto": "2022-06-13T00:00:00.000-03:00",
       "cdPrdAgric": 32,
-      "dsProduto": "CAFE EM COCO",
+      "dsProduto": "CAFE COCO",
       "qtFixado": 400,
       "vlFixado": 4652.9,
       "qtCtrFixado": 0,
@@ -176,16 +176,16 @@
     {
       "dtMovto": "2022-06-13T00:00:00.000-03:00",
       "cdPrdAgric": 32,
-      "dsProduto": "CAFE BENEFICIADO",
+      "dsProduto": "CAFE BENEF",
       "qtFixado": 0,
       "vlFixado": 0,
       "qtCtrFixado": 0,
       "vlCtrFixado": 0,
       "qtCtrVaTerra": 0,
       "vlCtrVaTerra": 0,
-      "qtTonelada": 0.3,
+      "qtTonelada": 9999999,
       "vlPrecoMedio": 1350,
-      "vlTonelada": 0
+      "vlTonelada": 999999
     }
   ],
   "obtemCotacaoPainel":{
@@ -211,16 +211,16 @@
       "cotacoes": [
         {
           "nm_moeda": "Dólar",
-          "vl_ult": 5.366,
-          "vl_perc": -0.16,
+          "vl_ult": 5.3660,
+          "vl_perc": "",
           "vl_min": 5.3446,
           "vl_max": 5.3867
         },
         {
           "nm_moeda": "Euro",
-          "vl_ult": 1.0789,
+          "vl_ult": 1.0788,
           "vl_perc": -0.96,
-          "vl_min": 1.0668,
+          "vl_min": 1.0669,
           "vl_max": 1.0686
         }
       ]
@@ -250,10 +250,10 @@
         {
           "nm_produto": "Soja",
           "ds_mes": "Jul-4",
-          "vl_fech": 1189.7,
-          "vl_ult": 1188.79,
+          "vl_fech": 1189.6,
+          "vl_ult": 1188.77,
           "vl_dif": -0.77,
-          "vl_perc": 0.06
+          "vl_perc": 0.05
         },
         {
           "nm_produto": "Farelo Soja",
@@ -334,14 +334,31 @@
           "vl_ult": 57.93,
           "vl_dif": -0.44,
           "vl_perc": -0.7
+        },
+        {
+          "nm_produto": "Milho ESAL-Q",
+          "ds_mes": "Jul-24",
+          "vl_fech": 58.32,
+          "vl_ult": 57.93,
+          "vl_dif": -0.44,
+          "vl_perc": -0.7
+        },
+        {
+          "nm_produto": "Milho ESAL-Q",
+          "ds_mes": "Jul-24",
+          "vl_fech": 58.32,
+          "vl_ult": 57.93,
+          "vl_dif": -0.44,
+          "vl_perc": -0.7
         }
       ]
     }
   },
   "obtemTempoAtualizaPainel":{
     "tempo_atualizacao": {
-      "qt_tempocontrato": 5,
-      "qt_tempocotacao": 5
+      "qt_tempocontrato": 60,
+      "qt_tempocotacao": 15,
+      "qt_tempoparams": 10
     }
   },
   "obtemParametrosExibicaoPainel":{
@@ -354,7 +371,8 @@
         "tp_ativo": 1
       }
     ]
+  },
+  "obtemUltLibPreco":{
+    "dt_ultlibpreco": "2024-07-25T07:14:17.000-03:00"
   }
-  
-   
 }
